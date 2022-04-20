@@ -1,0 +1,171 @@
+{
+  "title":"keyvana minidox",
+  "rules":[
+    {
+      "description":"keyvana minidox",
+      "manipulators":[
+        {
+          "description": "LH QU",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "simultaneous": [
+              { "key_code": "t" },
+              { "key_code": "k" }
+            ]
+          },
+          "to": [
+            { "key_code": "q" },
+            { "key_code": "u" }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F24 -> FN",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f24"
+          },
+          "to": [
+            { "key_code": "fn" }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F23 -> command-t",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f23"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "t" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F22 -> command-a",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f22"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "a" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F21 -> command-tab",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f21"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "tab" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F20 -> command-v",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f20"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "v" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F19 -> undo",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f19"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "z" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "F18 -> command-o",
+          "from": {
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            },
+            "key_code": "f18"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "o" 
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "description": "command-shift-c -> command-x",
+          "from": {
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_shift"
+              ]
+            },
+            "key_code": "c"
+          },
+          "to": [
+            { 
+              "modifiers": [ "left_command" ],
+              "key_code": "x" 
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
